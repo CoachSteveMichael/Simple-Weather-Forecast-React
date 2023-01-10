@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;800&display=swap");
+
+.App {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+.forecast {
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px black;
+  margin: 0 auto;
+  width: 90%;
+  justify-content: center;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.weatherCard {
+  border: 1px dotted gray;
+  padding: 1rem;
+  width: 150px;
+}
+
+.weatherCard:hover,
+.weatherCard:focus {
+  box-shadow: inset 0px 0px 5px black;
+  cursor: pointer;
+}
+
+.weatherCard:active {
+  box-shadow: inset 0px 0px 10px black;
+}
+
+img {
+  width: 70%;
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding: 0.5rem;
+  box-shadow: inset 0px 0px 5px black;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: bold;
+}
